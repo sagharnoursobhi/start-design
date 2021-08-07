@@ -1,0 +1,36 @@
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-x: clip;
+    }
+    a:active{
+        transition:all cubic-bezier(0.25, 0.1, 0.79, 0.99) 1000ms;
+    }
+
+    .hello_part{
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 0px 8px 10px #888888;
+    }
+
+    * {
+        font-stretch: ultra-condensed;
+        font-size: large;
+        scroll-behavior: smooth;
+    }
+    .p1 {
+        font-family: cursive;
+    }
+    .chart-box {
+        height: 500px;
+    }
+    .footer {
+        background-color: #007bff;
+    }
+    .navbar {
+    background-color: #28a745;
+    }
+
+    .canvasjs-chart-canvas{
+        position: static!important;
+    }
