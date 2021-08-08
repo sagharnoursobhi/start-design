@@ -8,9 +8,17 @@
     }
 
     .hello_part{
-        border: 1px solid;
-        padding: 10px;
+        padding: 30px;
         box-shadow: 0px 8px 10px #888888;
+    }
+
+    .hello_part ul{
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+    .hello_part li{
+        margin-left: 40px;
+        font-size: 20px;
     }
 
     * {
